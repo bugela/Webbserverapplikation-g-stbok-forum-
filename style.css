@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em;
+}
+
+/* Bootstrap classes for button styling */
+.btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* Bootstrap classes for table styling */
+.table {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #dddddd;
+}
